@@ -61,10 +61,6 @@ The ability to accurately classify white blood cell types can assist in diagnosi
 │   ├── eosinophil/                      # Eosinophil cell images  
 │   ├── neutrophil/                      # Neutrophil cell images
 │   └── test_data.npy                    # Preprocessed test data
-├── bloodcells_dataset_mendeley/
-│   ├── basophil/                        
-│   ├── eosinophil/                       
-│   ├── neutrophil/ 
 ├── predictions.npy                       # Model predictions output
 └── README.md                            # Project documentation
 ```
