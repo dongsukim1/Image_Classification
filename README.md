@@ -82,7 +82,7 @@ The ability to accurately classify white blood cell types can assist in diagnosi
 ## Getting Started
 
 1. **Requirements**: PyTorch, torchvision, scikit-learn, matplotlib, PIL, numpy
-2. **Dataset**: Ensure blood cell images are organized in the expected directory structure and unzip the mendeley dataset.
+2. **Dataset**: Download the [mendeley dataset](https://doi.org/10.17632/snkd93bnjr.1) (PBC_dataset_normal_DIB.zip), unzip it, and move it into the project directory.
 3. **Training**: Run the Jupyter notebook cells sequentially for data loading, model training, and evaluation
 4. **Evaluation**: View confusion matrices and sample predictions to assess model performance
 ```
