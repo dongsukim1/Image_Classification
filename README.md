@@ -15,8 +15,6 @@ The classification system uses **deep learning with PyTorch** and leverages **tr
 
 A smaller sample set (~500 images) is also included for quick experimentation.
 
-```
-
 ### Model Architecture
 - **Base Model**: EfficientNet-B0 (pre-trained on ImageNet)
 - **Transfer Learning**: Frozen feature extraction layers with custom classifier
@@ -57,7 +55,6 @@ The ability to accurately classify white blood cell types can assist in diagnosi
 
 ## Project Structure
 
-```
 ├── image_classification_project.ipynb    # Main notebook with complete implementation
 ├── bloodcells_dataset/                   # Dataset directory
 │   ├── basophil/                        # Basophil cell images
@@ -70,7 +67,6 @@ The ability to accurately classify white blood cell types can assist in diagnosi
 │   ├── neutrophil/ 
 ├── predictions.npy                       # Model predictions output
 └── README.md                            # Project documentation
-```
 
 ## Implementation Highlights
 
@@ -85,7 +81,6 @@ The ability to accurately classify white blood cell types can assist in diagnosi
 2. **Dataset**: Download the [mendeley dataset](https://doi.org/10.17632/snkd93bnjr.1) (PBC_dataset_normal_DIB.zip), unzip it, and move it into the project directory.
 3. **Training**: Run the Jupyter notebook cells sequentially for data loading, model training, and evaluation
 4. **Evaluation**: View confusion matrices and sample predictions to assess model performance
-```
 
 ## Reference
 
