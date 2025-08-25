@@ -54,7 +54,7 @@ Automated blood cell classification has significant applications in:
 The ability to accurately classify white blood cell types can assist in diagnosing conditions like leukemia, infections, allergic reactions, and immune system disorders. Deep learning models capable of accurately classifying basophils are also important as they are naturally rarer and dataset for specifically basophils are smaller than the other bloodcell types.
 
 ## Project Structure
-
+```
 ├── image_classification_project.ipynb    # Main notebook with complete implementation
 ├── bloodcells_dataset/                   # Dataset directory
 │   ├── basophil/                        # Basophil cell images
@@ -67,7 +67,7 @@ The ability to accurately classify white blood cell types can assist in diagnosi
 │   ├── neutrophil/ 
 ├── predictions.npy                       # Model predictions output
 └── README.md                            # Project documentation
-
+```
 ## Implementation Highlights
 
 - **Memory-Efficient Design**: Images loaded on-demand to prevent CUDA memory issues
